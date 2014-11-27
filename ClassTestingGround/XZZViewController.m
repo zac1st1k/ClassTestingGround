@@ -7,6 +7,7 @@
 //
 
 #import "XZZViewController.h"
+#import "XZZDog.h"
 
 @interface XZZViewController ()
 
@@ -40,6 +41,14 @@
         [capitalizedwords addObject:capitalizedword];
     }
      NSLog(@"%@", capitalizedwords);
+    
+    XZZDog *dog = [[XZZDog alloc] init];
+    [dog setName:@"Sparky"];
+    NSString *myDogsName = [dog name];
+    NSLog(@"%@", myDogsName);
+    
+    dog.name = @"Sparky is awesome";
+    NSLog(@"%@", dog.name);
 }
 
 - (void)didReceiveMemoryWarning

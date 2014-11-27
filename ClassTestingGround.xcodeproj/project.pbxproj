@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117B7A2C1A271F8F00082A3D /* XZZDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B7A2B1A271F8F00082A3D /* XZZDog.m */; };
 		11E8F1211A271473003A4A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E8F1201A271473003A4A26 /* Foundation.framework */; };
 		11E8F1231A271473003A4A26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E8F1221A271473003A4A26 /* CoreGraphics.framework */; };
 		11E8F1251A271473003A4A26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E8F1241A271473003A4A26 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		117B7A2A1A271F8F00082A3D /* XZZDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZZDog.h; path = ../XZZDog.h; sourceTree = "<group>"; };
+		117B7A2B1A271F8F00082A3D /* XZZDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZZDog.m; path = ../XZZDog.m; sourceTree = "<group>"; };
 		11E8F11D1A271473003A4A26 /* ClassTestingGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassTestingGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E8F1201A271473003A4A26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		11E8F1221A271473003A4A26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				11E8F1351A271473003A4A26 /* Main_iPad.storyboard */,
 				11E8F1381A271473003A4A26 /* XZZViewController.h */,
 				11E8F1391A271473003A4A26 /* XZZViewController.m */,
+				117B7A2A1A271F8F00082A3D /* XZZDog.h */,
+				117B7A2B1A271F8F00082A3D /* XZZDog.m */,
 				11E8F13B1A271473003A4A26 /* Images.xcassets */,
 				11E8F1271A271473003A4A26 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E8F12D1A271473003A4A26 /* main.m in Sources */,
+				117B7A2C1A271F8F00082A3D /* XZZDog.m in Sources */,
 				11E8F1311A271473003A4A26 /* XZZAppDelegate.m in Sources */,
 				11E8F13A1A271473003A4A26 /* XZZViewController.m in Sources */,
 			);
