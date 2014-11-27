@@ -471,6 +471,7 @@
 				11E8F1541A271473003A4A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11E8F1551A271473003A4A26 /* Build configuration list for PBXNativeTarget "ClassTestingGroundTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				11E8F1571A271473003A4A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
